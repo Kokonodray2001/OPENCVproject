@@ -19,7 +19,8 @@ img  = cv.imread('a.jpeg')
 #img.shape
 Z = img.reshape((-1,3))
 #Z.shape 
-#i added yhis comment to test
+#i added this comment to test
+#this is the second change
 Z = np.float32(Z) 
 criteria = (cv.TERM_CRITERIA_EPS+cv.TERM_CRITERIA_MAX_ITER,10,1.0) 
 K=6
