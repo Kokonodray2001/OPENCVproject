@@ -1,4 +1,4 @@
-import cv2 as cv
+  2import cv2 as cv
 #import time
 vid = cv.VideoCapture(0)#object of videocap
 while True:
@@ -8,7 +8,7 @@ while True:
     k = cv.waitKey(1)
     print(frame)#real time image matrix
     if(k==ord('c')):
-        cv.imwrite('a.jpeg',frame)
+        cv.imwrite('a.jpeg',frame)m,,m
     if k == ord('x'):
         break
 vid.release()
